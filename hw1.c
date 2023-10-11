@@ -7,7 +7,7 @@ int main()
     {
         for(j = 1; j <= 9; j++)
         {
-        printf("%d  * %d = %2d    ",j, i, j* i);
+        printf("%d  * %d = %2d    ",j, i, j * i);
         }
     printf("\n");
     }
