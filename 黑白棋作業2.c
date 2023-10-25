@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int canMove(int chess[8][8], int i, int j, int color) {
+    //這邊我原本想要用for迴圈讓dx和dy一個一個加以便檢查方向，後來發現這樣太麻煩，有問高中同學，這是他提供的想法
     int dx[] = {-1, -1, -1, 0, 0, 1, 1, 1};
     int dy[] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
